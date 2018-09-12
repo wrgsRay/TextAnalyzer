@@ -57,7 +57,7 @@ class Analyzer(Frame):
         pyperclip.copy(self.message_box.get())
 
     def trim(self):
-        self.message_box.delete(250, END)
+        self.message_box.delete(249, END)
 
 
 def main():
